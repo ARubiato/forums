@@ -6,4 +6,7 @@
 	 resize: none;
 }
 
-	
+.side {
+	display: inline-block !important;
+	 vertical-align:top !important;
+}

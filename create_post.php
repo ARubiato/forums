@@ -1,5 +1,5 @@
 <?php
-require 'src/header.php';
+require 'include/header.php';
 require 'php/server.php';
 ?>
 <!DOCTYPE html>
@@ -42,7 +42,7 @@ require 'php/server.php';
 					<li>Content 3</li>
 				</ul>
 			</div>
-
+			
 			<div class = "uk-card-body uk-width-1-4 uk-float-right">
 				<h5>Your latest posts</h5>
 				<div class = "uk-card-default">

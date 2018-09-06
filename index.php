@@ -1,5 +1,5 @@
 <?php 
-require 'src/header.php';
+require 'include/header.php';
 require 'php/server.php';
 $vquery = "SELECT * FROM forum_post";
 $results = mysqli_query($conn,$vquery);
@@ -10,19 +10,22 @@ $results = mysqli_query($conn,$vquery);
 	<title>Home</title>
 </head>
 <body>	
-	<div class = "uk-container">
-		<div class = "uk-card-center uk-card-body uk-width-3-4">
-			<div class = "uk-card-primary">
-	
-			</div>
-		</div>
 
-		<div class = "uk-card uk-width-1-4 uk-float-right">
-			<div class="uk-card uk-card-body uk-card-primary">
-				<h5>Your personal Community Forums frontpage. Come here to check in with the community</h5>
-				<a class = "uk-button uk-button-default" href = "create_post.php">Create a post</a>
+	<div class = "uk-section uk-section-secondary uk-width-1-4 uk-margin-left uk-margin-right">
+		<div class = "uk-container uk-container-expand">
+			<div class = "uk-panel uk-panel-box">
+				<h4>Create your own post!</h4>
+				<p>Connect with the community by creating a thread!</p>
+				<a href = "" class = "uk-button uk-button-default">Create post</a>
 			</div>
 		</div>
 	</div>
+	
+	<div class = "uk-section uk-section-primary uk-margin-left uk-margin-right">
+		<div class = "uk-container uk-container-expand">
+		
+		</div>
+	</div>
+		
 </body>
 </html>
